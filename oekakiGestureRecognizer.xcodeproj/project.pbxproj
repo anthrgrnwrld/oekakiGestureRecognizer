@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364C8D921D22719E00308846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8D911D22719E00308846 /* AppDelegate.swift */; };
+		364C8D941D22719E00308846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8D931D22719E00308846 /* ViewController.swift */; };
+		364C8D971D22719E00308846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364C8D951D22719E00308846 /* Main.storyboard */; };
+		364C8D991D22719E00308846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364C8D981D22719E00308846 /* Assets.xcassets */; };
+		364C8D9C1D22719E00308846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364C8D9A1D22719E00308846 /* LaunchScreen.storyboard */; };
+		364C8DA71D22719F00308846 /* oekakiGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DA61D22719F00308846 /* oekakiGestureRecognizerTests.swift */; };
+		364C8DB21D22719F00308846 /* oekakiGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DB11D22719F00308846 /* oekakiGestureRecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		364C8DA31D22719F00308846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364C8D861D22719E00308846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364C8D8D1D22719E00308846;
+			remoteInfo = oekakiGestureRecognizer;
+		};
+		364C8DAE1D22719F00308846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364C8D861D22719E00308846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364C8D8D1D22719E00308846;
+			remoteInfo = oekakiGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		364C8D8E1D22719E00308846 /* oekakiGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oekakiGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364C8D911D22719E00308846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		364C8D931D22719E00308846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		364C8D961D22719E00308846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		364C8D981D22719E00308846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		364C8D9B1D22719E00308846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		364C8D9D1D22719E00308846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364C8DA21D22719F00308846 /* oekakiGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oekakiGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364C8DA61D22719F00308846 /* oekakiGestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oekakiGestureRecognizerTests.swift; sourceTree = "<group>"; };
+		364C8DA81D22719F00308846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364C8DAD1D22719F00308846 /* oekakiGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oekakiGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364C8DB11D22719F00308846 /* oekakiGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oekakiGestureRecognizerUITests.swift; sourceTree = "<group>"; };
+		364C8DB31D22719F00308846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364C8D8B1D22719E00308846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C8D9F1D22719F00308846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C8DAA1D22719F00308846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364C8D851D22719E00308846 = {
+			isa = PBXGroup;
+			children = (
+				364C8D901D22719E00308846 /* oekakiGestureRecognizer */,
+				364C8DA51D22719F00308846 /* oekakiGestureRecognizerTests */,
+				364C8DB01D22719F00308846 /* oekakiGestureRecognizerUITests */,
+				364C8D8F1D22719E00308846 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		364C8D8F1D22719E00308846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364C8D8E1D22719E00308846 /* oekakiGestureRecognizer.app */,
+				364C8DA21D22719F00308846 /* oekakiGestureRecognizerTests.xctest */,
+				364C8DAD1D22719F00308846 /* oekakiGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364C8D901D22719E00308846 /* oekakiGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				364C8D911D22719E00308846 /* AppDelegate.swift */,
+				364C8D931D22719E00308846 /* ViewController.swift */,
+				364C8D951D22719E00308846 /* Main.storyboard */,
+				364C8D981D22719E00308846 /* Assets.xcassets */,
+				364C8D9A1D22719E00308846 /* LaunchScreen.storyboard */,
+				364C8D9D1D22719E00308846 /* Info.plist */,
+			);
+			path = oekakiGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		364C8DA51D22719F00308846 /* oekakiGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				364C8DA61D22719F00308846 /* oekakiGestureRecognizerTests.swift */,
+				364C8DA81D22719F00308846 /* Info.plist */,
+			);
+			path = oekakiGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		364C8DB01D22719F00308846 /* oekakiGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				364C8DB11D22719F00308846 /* oekakiGestureRecognizerUITests.swift */,
+				364C8DB31D22719F00308846 /* Info.plist */,
+			);
+			path = oekakiGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		364C8D8D1D22719E00308846 /* oekakiGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364C8DB61D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizer" */;
+			buildPhases = (
+				364C8D8A1D22719E00308846 /* Sources */,
+				364C8D8B1D22719E00308846 /* Frameworks */,
+				364C8D8C1D22719E00308846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oekakiGestureRecognizer;
+			productName = oekakiGestureRecognizer;
+			productReference = 364C8D8E1D22719E00308846 /* oekakiGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		364C8DA11D22719F00308846 /* oekakiGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364C8DB91D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizerTests" */;
+			buildPhases = (
+				364C8D9E1D22719F00308846 /* Sources */,
+				364C8D9F1D22719F00308846 /* Frameworks */,
+				364C8DA01D22719F00308846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364C8DA41D22719F00308846 /* PBXTargetDependency */,
+			);
+			name = oekakiGestureRecognizerTests;
+			productName = oekakiGestureRecognizerTests;
+			productReference = 364C8DA21D22719F00308846 /* oekakiGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		364C8DAC1D22719F00308846 /* oekakiGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364C8DBC1D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizerUITests" */;
+			buildPhases = (
+				364C8DA91D22719F00308846 /* Sources */,
+				364C8DAA1D22719F00308846 /* Frameworks */,
+				364C8DAB1D22719F00308846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364C8DAF1D22719F00308846 /* PBXTargetDependency */,
+			);
+			name = oekakiGestureRecognizerUITests;
+			productName = oekakiGestureRecognizerUITests;
+			productReference = 364C8DAD1D22719F00308846 /* oekakiGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		364C8D861D22719E00308846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Masaki Horimoto";
+				TargetAttributes = {
+					364C8D8D1D22719E00308846 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					364C8DA11D22719F00308846 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 364C8D8D1D22719E00308846;
+					};
+					364C8DAC1D22719F00308846 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 364C8D8D1D22719E00308846;
+					};
+				};
+			};
+			buildConfigurationList = 364C8D891D22719E00308846 /* Build configuration list for PBXProject "oekakiGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 364C8D851D22719E00308846;
+			productRefGroup = 364C8D8F1D22719E00308846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364C8D8D1D22719E00308846 /* oekakiGestureRecognizer */,
+				364C8DA11D22719F00308846 /* oekakiGestureRecognizerTests */,
+				364C8DAC1D22719F00308846 /* oekakiGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364C8D8C1D22719E00308846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C8D9C1D22719E00308846 /* LaunchScreen.storyboard in Resources */,
+				364C8D991D22719E00308846 /* Assets.xcassets in Resources */,
+				364C8D971D22719E00308846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C8DA01D22719F00308846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C8DAB1D22719F00308846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364C8D8A1D22719E00308846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C8D941D22719E00308846 /* ViewController.swift in Sources */,
+				364C8D921D22719E00308846 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C8D9E1D22719F00308846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C8DA71D22719F00308846 /* oekakiGestureRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364C8DA91D22719F00308846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C8DB21D22719F00308846 /* oekakiGestureRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		364C8DA41D22719F00308846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364C8D8D1D22719E00308846 /* oekakiGestureRecognizer */;
+			targetProxy = 364C8DA31D22719F00308846 /* PBXContainerItemProxy */;
+		};
+		364C8DAF1D22719F00308846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364C8D8D1D22719E00308846 /* oekakiGestureRecognizer */;
+			targetProxy = 364C8DAE1D22719F00308846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		364C8D951D22719E00308846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364C8D961D22719E00308846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		364C8D9A1D22719E00308846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364C8D9B1D22719E00308846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		364C8DB41D22719F00308846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		364C8DB51D22719F00308846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		364C8DB71D22719F00308846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = oekakiGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.oekakiGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		364C8DB81D22719F00308846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = oekakiGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.oekakiGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		364C8DBA1D22719F00308846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = oekakiGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.oekakiGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oekakiGestureRecognizer.app/oekakiGestureRecognizer";
+			};
+			name = Debug;
+		};
+		364C8DBB1D22719F00308846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = oekakiGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.oekakiGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oekakiGestureRecognizer.app/oekakiGestureRecognizer";
+			};
+			name = Release;
+		};
+		364C8DBD1D22719F00308846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = oekakiGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.oekakiGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = oekakiGestureRecognizer;
+			};
+			name = Debug;
+		};
+		364C8DBE1D22719F00308846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = oekakiGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.oekakiGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = oekakiGestureRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364C8D891D22719E00308846 /* Build configuration list for PBXProject "oekakiGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C8DB41D22719F00308846 /* Debug */,
+				364C8DB51D22719F00308846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364C8DB61D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C8DB71D22719F00308846 /* Debug */,
+				364C8DB81D22719F00308846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		364C8DB91D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C8DBA1D22719F00308846 /* Debug */,
+				364C8DBB1D22719F00308846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		364C8DBC1D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C8DBD1D22719F00308846 /* Debug */,
+				364C8DBE1D22719F00308846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 364C8D861D22719E00308846 /* Project object */;
+}
