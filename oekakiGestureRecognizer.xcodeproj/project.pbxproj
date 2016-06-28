@@ -14,6 +14,7 @@
 		364C8D9C1D22719E00308846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364C8D9A1D22719E00308846 /* LaunchScreen.storyboard */; };
 		364C8DA71D22719F00308846 /* oekakiGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DA61D22719F00308846 /* oekakiGestureRecognizerTests.swift */; };
 		364C8DB21D22719F00308846 /* oekakiGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DB11D22719F00308846 /* oekakiGestureRecognizerUITests.swift */; };
+		364C8DC01D2271B600308846 /* OekakiGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DBF1D2271B600308846 /* OekakiGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		364C8DAD1D22719F00308846 /* oekakiGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oekakiGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		364C8DB11D22719F00308846 /* oekakiGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oekakiGestureRecognizerUITests.swift; sourceTree = "<group>"; };
 		364C8DB31D22719F00308846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364C8DBF1D2271B600308846 /* OekakiGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OekakiGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				364C8D911D22719E00308846 /* AppDelegate.swift */,
 				364C8D931D22719E00308846 /* ViewController.swift */,
+				364C8DBF1D2271B600308846 /* OekakiGestureRecognizer.swift */,
 				364C8D951D22719E00308846 /* Main.storyboard */,
 				364C8D981D22719E00308846 /* Assets.xcassets */,
 				364C8D9A1D22719E00308846 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				364C8D941D22719E00308846 /* ViewController.swift in Sources */,
 				364C8D921D22719E00308846 /* AppDelegate.swift in Sources */,
+				364C8DC01D2271B600308846 /* OekakiGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
