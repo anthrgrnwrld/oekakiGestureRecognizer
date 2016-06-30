@@ -50,11 +50,25 @@ class OekakiGestureRecognizer: UIGestureRecognizer
     
     override func locationInView(view: UIView?) -> CGPoint {
         
-        guard let tchpnt = touchPoint else {
+        guard var tchpnt = touchPoint else {
             fatalError("Can't get touchPoint")
         }
         
-        return tchpnt                                       //外部から呼び出された際にタッチ座標を返す
+        //parameterのviewがUIScrollViewか否かで処理を分岐(拡大時対応の為)
+        if let parameterView = self.view! as? UIScrollView {
+            
+            let contentSize = parameterView.contentSize
+            let rate = self.view!.bounds.width / contentSize.width
+            
+            tchpnt.x = tchpnt.x * rate
+            tchpnt.y = tchpnt.y * rate
+            
+            return tchpnt                                   //parameterのviewがUIScrollViewだった時
+            
+        } else {
+            return tchpnt                                   //parameterのviewがUIScrollView以外だった時
+        }
+        
         
     }
     
