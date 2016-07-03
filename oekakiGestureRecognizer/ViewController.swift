@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
     internal func drawGesture(sender: AnyObject) {
         
         guard let oekakiGesture = sender as? OekakiGestureRecognizer else {
@@ -41,7 +43,7 @@ class ViewController: UIViewController {
             let touchPoint = oekakiGesture.locationInView(self.imageView)       //タッチ座標を取得
             
             //Drawを実行 -> 結果をUIImageにて取得
-            let imageAfterDraw = drawCircle(self.imageView.image, size: size, touchPoint: touchPoint)
+            let imageAfterDraw = drawCircle(self.imageView.image, size: size, center: touchPoint)
             self.imageView.image = imageAfterDraw
             
         default:
@@ -51,7 +53,7 @@ class ViewController: UIViewController {
     
     }
     
-    func drawCircle(image: UIImage?, size: CGSize, touchPoint: CGPoint) -> UIImage {
+    func drawCircle(canvas: UIImage?, size: CGSize, center: CGPoint) -> UIImage {
         
         let radius: CGFloat = 20.0                                          //Drawする円の半径
         let red: CGFloat = 1.0                                              //Drawする色 R
@@ -62,10 +64,10 @@ class ViewController: UIViewController {
         UIGraphicsBeginImageContextWithOptions(size, false, 0.0)            //コンテキストを取得
         
         //タップした時に描く円のRect
-        let circleRect = CGRectMake(touchPoint.x - radius, touchPoint.y - radius, radius * 2, radius * 2)
+        let circleRect = CGRectMake(center.x - radius, center.y - radius, radius * 2, radius * 2)
         
 
-        image?.drawInRect(CGRectMake(0, 0, size.width, size.height))        //コンテキストにimageViewの内容を写す
+        canvas?.drawInRect(CGRectMake(0, 0, size.width, size.height))        //コンテキストにimageViewの内容を写す
         let circlePath = UIBezierPath(ovalInRect: circleRect)               //円を描く
         let color = UIColor(red:red, green:green, blue:blue, alpha:alpha)   //透明色を格納
         color.setFill()
