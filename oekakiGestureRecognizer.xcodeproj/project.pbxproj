@@ -15,6 +15,7 @@
 		364C8DA71D22719F00308846 /* oekakiGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DA61D22719F00308846 /* oekakiGestureRecognizerTests.swift */; };
 		364C8DB21D22719F00308846 /* oekakiGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DB11D22719F00308846 /* oekakiGestureRecognizerUITests.swift */; };
 		364C8DC01D2271B600308846 /* OekakiGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C8DBF1D2271B600308846 /* OekakiGestureRecognizer.swift */; };
+		3672D4091D2A113A00A9A222 /* extensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672D4081D2A113A00A9A222 /* extensionUIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		364C8DB11D22719F00308846 /* oekakiGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oekakiGestureRecognizerUITests.swift; sourceTree = "<group>"; };
 		364C8DB31D22719F00308846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		364C8DBF1D2271B600308846 /* OekakiGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OekakiGestureRecognizer.swift; sourceTree = "<group>"; };
+		3672D4081D2A113A00A9A222 /* extensionUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionUIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				364C8D911D22719E00308846 /* AppDelegate.swift */,
 				364C8D931D22719E00308846 /* ViewController.swift */,
+				3672D4081D2A113A00A9A222 /* extensionUIImage.swift */,
 				364C8DBF1D2271B600308846 /* OekakiGestureRecognizer.swift */,
 				364C8D951D22719E00308846 /* Main.storyboard */,
 				364C8D981D22719E00308846 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				364C8D941D22719E00308846 /* ViewController.swift in Sources */,
 				364C8D921D22719E00308846 /* AppDelegate.swift in Sources */,
 				364C8DC01D2271B600308846 /* OekakiGestureRecognizer.swift in Sources */,
+				3672D4091D2A113A00A9A222 /* extensionUIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				364C8DB81D22719F00308846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364C8DB91D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizerTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				364C8DBB1D22719F00308846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364C8DBC1D22719F00308846 /* Build configuration list for PBXNativeTarget "oekakiGestureRecognizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				364C8DBE1D22719F00308846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
